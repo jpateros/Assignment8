@@ -4,12 +4,12 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
 }
 
 .form-container h2 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -22,7 +22,7 @@ label {
 input[type="text"] {
     width: 200px;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
     border-radius: 3px;
 }
 
@@ -35,8 +35,10 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #3b70a6;
+.error {
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
 }
 
 table {
@@ -51,12 +53,12 @@ th, td {
 }
 
 th {
-    background-color: #4e8ccf;
+    background-color: rgb(47, 176, 222);
     color: white;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #f0f4fa;
+    background-color: #6ba1bd;
 }
 
 tbody tr:nth-child(even) {
@@ -64,7 +66,7 @@ tbody tr:nth-child(even) {
 }
 
 td button {
-    background-color: #4e8ccf;
+    background-color: blue;
     color: white;
     border: none;
     border-radius: 3px;
@@ -75,3 +77,4 @@ td button {
 td button:hover {
     background-color: #3b70a6;
 }
+
