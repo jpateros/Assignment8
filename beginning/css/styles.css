@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.form-container h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4e8ccf;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b70a6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4e8ccf;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f0f4fa;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d9e7f5;
+}
+
+td button {
+    background-color: #4e8ccf;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+td button:hover {
+    background-color: #3b70a6;
+}
